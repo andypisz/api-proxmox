@@ -108,3 +108,4 @@ Client.Result retDeleSnap = client.getNodes().get("pve1")
     .getQemu().get(100).getSnapshot().get("pippo").delsnapshot();
 System.out.println(retDeleSnap.getResponse().get("data"));
 ```
+# api-proxmox
